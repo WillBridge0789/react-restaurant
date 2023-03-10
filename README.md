@@ -1,4 +1,2 @@
-# Awesome Inc Web Developer Bootcamp React Template
-```
-npx create-react-app app --template file:.template
-```
+# React Restaurant
+An application immitating a restaurant site displaying a menu using React and API.
