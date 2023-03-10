@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background-color: floralwhite;
+}
+
+h1, h2 {
+    text-decoration: underline;
+    font-family:'Pacifico', Arial, Helvetica, sans-serif;
+}
+
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 

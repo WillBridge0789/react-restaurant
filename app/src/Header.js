@@ -4,8 +4,8 @@ function Header() {
     return(
         <div className="container">
             <div className="row">
-                <div className="col">
-                    <h1>Restaurant</h1>
+                <div className="col m-3">
+                    <h1>Hi n'Bye</h1>
                     <img src={Food} />
                 </div>
             </div>
