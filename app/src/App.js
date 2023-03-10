@@ -1,17 +1,16 @@
-import axios from 'axios';
 import NavBar from "./NavBar";
 import Header from "./Header";
-import Content from './Content';
+import Menu from './Menu';
 import Footer from "./Footer";
 
 function App() {
-    return(
+
+    return (
         <div>
             <NavBar />
             <Header />
-            <Content />
+            <Menu />
             <Footer />
-            
         </div>
     )
 }

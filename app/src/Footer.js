@@ -1,10 +1,16 @@
 function Footer() {
     return(
-      <div classNameName="container">
-        <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <p className="col-4 d-flex align-items-center">Address</p>
+      <div className="container-fluid">
+        <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 bg-dark text-bg-dark border-top">
+            <h6 className="col d-flex justify-content-start m-4">Hours: 9am - 9:01:59am</h6>
+          <div className="row">
+            <div className="col d-flex justify-content-center m-4">
+              <p>1407 Greymalkin Lane, <br /> Westchester, New York</p>
+            </div>
+          </div>
         </footer>
       </div>  
+
     )
 }
 
